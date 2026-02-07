@@ -8,6 +8,7 @@ header {
     align-items: flex-start;
 
     padding: 38px 48px;
+    position: relative;
 }
 
 .logo {
@@ -30,4 +31,25 @@ nav {
 input[type="checkbox"]:checked ~ nav {
 
     display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-tertiary-color);
+}
+
+.list-link {
+
+    list-style: none;
+}
+
+.list-link li {
+
+    margin: 16px 0px;
+}
+
+.list-link li a {
+
+    text-decoration: none;
+    color: var(--text-secondary-color);
 }
