@@ -1,0 +1,15 @@
+.categories-card {
+
+    display: block;
+    background-color: var(--background-secondary-color);
+    text-align: center;
+    width: 312px;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.categories-card img {
+
+    margin: 41px auto 24px;
+}
