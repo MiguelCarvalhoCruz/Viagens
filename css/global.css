@@ -76,6 +76,20 @@ section.hero {
     margin: 16px auto 32px;
 }
 
+.content-title {
+
+    font-size: 28px;
+    font-weight: var(--titles-weight);
+    margin: 0px 0px 24px;
+}
+
+.content-text {
+
+    font-size: 20px;
+    font-weight: var(--text-weight);
+    line-height: 32px;
+}
+
 .button {
 
     display: inline-block;
