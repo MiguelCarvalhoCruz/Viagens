@@ -33,6 +33,47 @@
     grid-column: span 2;
 }
 
+/*Pacote de viagens*/
+
+.payments .content-container .image-gallery .image-pacotes.first {
+
+    background: url(../img/img-japao-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image-pacotes.second {
+
+    background: url(../img/img-japao2-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image-pacotes.thirdy {
+
+    background: url(../img/img-japao3-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image-pacotes.colspan-2 {
+
+    grid-column: span 2;
+}
+
+.payments .button {
+
+    margin-top: 24px;
+    display: inline-block;
+    min-width: 312px;
+    height: 64px;
+    color: var(--background-secondary-color);
+    font-weight: var(--titles-weight);
+    font-size: 20px;
+    background-color: var(--button-secondary-color);
+    border-radius: 16px;
+    text-decoration: none;
+    line-height: 64px;
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     
     .payments .content-container .image-gallery .image.first {
@@ -50,6 +91,26 @@
     .payments .content-container .image-gallery .image.thirdy {
 
         background: url(../img/pessoas-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    /*Pacotes de viagem*/
+
+    .payments .content-container .image-gallery .image-pacotes.first {
+
+        background: url(../img/img-tablet-desktop-japao.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-gallery .image-pacotes.second {
+
+        background: url(../img/img-tablet-desktop-japao2.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-gallery .image-pacotes.thirdy {
+
+        background: url(../img/img-tablet-desktop-japao3.png) no-repeat;
         background-size: cover;
     }
 }

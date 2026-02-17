@@ -4,9 +4,26 @@
     margin: 0;
 }
 
-.hero .hero-img, .bottom-hero .hero-img{
+.bottom-hero-pacotes {
+
+    width: 100%;
+    margin: 0;
+}
+
+.pacotes {
+
+    width: 100%;
+    margin: 0 0 88px 0;
+}
+
+.hero .hero-img, .bottom-hero .hero-img, .pacotes .hero-img, .bottom-hero-pacotes .hero-img{
     height: 400px;
     width: 100%;
+}
+
+.pacotes .hero-img {
+
+    height: 460px;
 }
 
 .hero .hero-img {
@@ -19,6 +36,18 @@
     background-size: cover;
 }
 
+.pacotes .hero-img {
+
+    background: url(../img/img-mobile-montanha.png) no-repeat;
+    background-size: cover;
+}
+
+.bottom-hero-pacotes .hero-img {
+
+    background: url(../img/img-rodape-mobile-japao.png) no-repeat;
+    background-size: cover;
+}
+
 .hero h2 {
 
     padding: 88px 24px;
@@ -27,6 +56,37 @@
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
+}
+
+.section-pacotes {
+
+    box-sizing: border-box;
+    padding: 65px 24px;
+}
+
+.section-pacotes h2{
+
+    color: var(--text-secondary-color);
+    font-size: 48px;
+    font-weight: var(--title-weight);
+}
+
+.section-pacotes p {
+
+    font-size: 20px;
+    color: var(--text-secondary-color);
+    font-weight: var(--text-weight);
+    line-height: 32px;
+}
+
+.section-pacotes hr {
+
+    width: 180px;
+    height: 4px;
+    background-color: var(--button-primary-color);
+    border: none;
+    margin: 16px 0px 32px;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -45,12 +105,37 @@
         background-size: cover;
     }
 
+    .pacotes .hero-img {
+
+        height: 620px;
+        background: url(../img/img-tablet-montanha.png) no-repeat;
+        background-size: cover;
+    }
+
+    .bottom-hero-pacotes .hero-img {
+        height: 400px;
+        background: url(../img/img-rodape-tablet-japao.png) no-repeat;
+        background-size: cover;
+    }
+
     .hero h2 {
 
         padding: 88px 60px;
         font-size: 32px;
         
     }
+
+    .section-pacotes {
+
+        padding: 150px 120px 170px;
+        margin: 0;
+    }
+
+    .section-pacotes p {
+
+        width: 570px;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -68,11 +153,24 @@
         background-size: cover;
     }
 
+    .pacotes .hero-img {
+
+        background: url(../img/img-desktop-montanha.png) no-repeat;
+        background-size: cover;
+    }
+
+    .bottom-hero-pacotes .hero-img {
+        height: 600px;
+        background: url(../img/img-rodape-desktop-japao.png) no-repeat;
+        background-size: cover;
+    }   
+
      .hero h2 {
 
         padding: 88px 120px;
         
     }
+
 }
 
 @media screen and (min-width: 1920px) {
