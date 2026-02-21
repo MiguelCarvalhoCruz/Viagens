@@ -10,13 +10,26 @@
     margin: 0;
 }
 
+.bottom-hero-contatos {
+
+    margin-top: 88px;
+    width: 100%;
+    margin: 0;
+}
+
 .pacotes {
 
     width: 100%;
     margin: 0 0 88px 0;
 }
 
-.hero .hero-img, .bottom-hero .hero-img, .pacotes .hero-img, .bottom-hero-pacotes .hero-img{
+.contato {
+
+    width: 100%;
+    margin: 0 0 88px 0;
+}
+
+.hero .hero-img, .bottom-hero .hero-img, .pacotes .hero-img, .bottom-hero-pacotes .hero-img, .contato .hero-img, .bottom-hero-contatos{
     height: 400px;
     width: 100%;
 }
@@ -42,9 +55,21 @@
     background-size: cover;
 }
 
+.contato .hero-img {
+
+    background: url(../img/img-hero-contato-mobile.png);
+    background-size: cover;
+}
+
 .bottom-hero-pacotes .hero-img {
 
     background: url(../img/img-rodape-mobile-japao.png) no-repeat;
+    background-size: cover;
+}
+
+.bottom-hero-contatos {
+
+    background: url(../img/img-footer-contato-mobile.png) no-repeat;
     background-size: cover;
 }
 
@@ -89,6 +114,37 @@
 
 }
 
+.section-contato {
+
+    box-sizing: border-box;
+    padding: 65px 24px;
+}
+
+.section-contato h2{
+
+    color: var(--text-secondary-color);
+    font-size: 48px;
+    font-weight: var(--title-weight);
+}
+
+.section-contato p {
+
+    font-size: 20px;
+    color: var(--text-secondary-color);
+    font-weight: var(--text-weight);
+    line-height: 32px;
+}
+
+.section-contato hr {
+
+    width: 180px;
+    height: 4px;
+    background-color: var(--button-primary-color);
+    border: none;
+    margin: 16px 0px 32px;
+
+}
+
 @media screen and (min-width: 768px) {
     
     .hero .hero-img {
@@ -118,6 +174,18 @@
         background-size: cover;
     }
 
+    .bottom-hero-contatos .hero-img {
+        height: 600px;
+        background: url(../img/img-footer-contato-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .contato .hero-img {
+        height: 620px;
+        background: url(../img/img-hero-contato-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
     .hero h2 {
 
         padding: 88px 60px;
@@ -134,6 +202,19 @@
     .section-pacotes p {
 
         width: 570px;
+    }
+
+    .section-contato {
+
+        padding: 183px 85px;
+        margin: 0;
+
+    }
+
+    .section-contato p {
+
+        width: 579px;
+        font-size: 32px;
     }
 
 }
@@ -159,11 +240,23 @@
         background-size: cover;
     }
 
+    .contato .hero-img {
+
+        background: url(../img/img-hero-contato-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
     .bottom-hero-pacotes .hero-img {
         height: 600px;
         background: url(../img/img-rodape-desktop-japao.png) no-repeat;
         background-size: cover;
     }   
+
+     .bottom-hero-contatos .hero-img {
+        margin-top: 100px;
+        background: url(../img/img-footer-contato-desktop.png) no-repeat;
+        background-size: cover;
+    }
 
      .hero h2 {
 
