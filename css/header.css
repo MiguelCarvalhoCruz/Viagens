@@ -66,6 +66,11 @@ input[type="checkbox"]:checked ~ nav {
     font-weight: var(--menu-text-weight);
 }
 
+.list-link li a.active {
+
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
 
     .navigation-menu {

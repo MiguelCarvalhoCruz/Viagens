@@ -1,0 +1,118 @@
+.content {
+
+    font-size: 20px;
+    font-weight: var(--text-weight);
+    line-height: 32px;
+    text-align: center;
+
+}
+
+.formulario input {
+
+    width: 312px;
+    height: 40px;
+    margin-bottom: 64px;
+    font-size: 20px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: var(--text-primary-color);
+}
+
+input[type="text"]:invalid, input[type="number"]:invalid, input[type="email"]:invalid {
+
+    border-color: var(--button-primary-color);
+}
+
+.formulario label {
+
+   display: block;
+   font-size: 20px;
+   margin-bottom: 8px;
+   color: var(--text-primary-color);
+}
+
+.formulario textarea {
+
+    width: 312px;
+    height: 90px;
+    border-radius: 8px;
+}
+
+.button.contato {
+
+   margin-top: 32px; 
+   width: 312px;
+   height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .formulario input {
+
+        width: 648px;
+        height: 40px;
+    }
+
+    .formulario textarea {
+
+        width: 648px;
+    }
+
+    .formulario .button.contato {
+
+        display: block;
+        width: 280px;
+        height: 64px;
+        margin: 32px auto;
+        
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+   .formulario {
+        max-width: 790px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+
+    /* Nome ocupa 2 colunas */
+    #nome {
+        grid-column: span 2;
+    }
+
+    /* Assunto ocupa 2 colunas */
+    #assunto {
+        grid-column: span 2;
+        width: 790px;
+    }
+
+    /* Textarea ocupa 2 colunas */
+    textarea {
+        grid-column: span 2;
+    }
+
+    /* Botão ocupa 2 colunas */
+    .button.contato {
+        grid-column: span 2;
+        width: 280px;
+        height: 60px;
+        margin: 32px auto 0;
+        display: block;
+    }
+
+    .formulario input[type="number"], input[type="email"] {
+        
+        width: 383px;
+    }
+
+    .formulario input[type="text"] {
+
+        width: 790px;
+    }
+
+
+}
