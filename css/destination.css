@@ -26,6 +26,18 @@
     background-size: cover;
 }
 
+.destinations .item.hiroshima .img-item {
+
+    background: url(../img/img-hiroshima-blog-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.destinations .item.kyoto .img-item {
+
+    background: url(../img/img-kyoto-blog-mobile.png) no-repeat;
+    background-size: cover;
+}
+
 .destinations .item header h3 {
 
     margin: 24px 0px;
@@ -58,13 +70,25 @@
 
     .destinations .item.tokyo .img-item {
 
-        background: url(../img/tokyo-tablet.jpg);
+        background: url(../img/tokyo-tablet.jpg) no-repeat;
         background-size: cover;
     }   
 
     .destinations .item.osaka .img-item {
 
-        background: url(../img/osaka-tablet.jpg);
+        background: url(../img/osaka-tablet.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .destinations .item.hIroshima .img-item {
+
+        background: url(../img/img-hiroshima-blog-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .destinations .item.kyoto .img-item {
+
+        background: url(../img/img-kyoto-blog-tablet.png) no-repeat;
         background-size: cover;
     }
 

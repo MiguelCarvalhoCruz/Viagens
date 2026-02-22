@@ -1,0 +1,106 @@
+
+.informacao {
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.informacao .texto {
+
+    width: 312px;
+    height: 346px;
+}
+
+.informacao .texto h3 {
+
+    font-size: 28px;
+    font-weight: bold;
+    color: var( --text-primary-color);
+}
+
+.informacao .texto p {
+
+    font-size: 20px;
+    font-weight: var(--text-weight);
+    color: var( --text-primary-color);
+    line-height: 30px;
+}
+
+.informacao .img-info {
+
+    margin-top: 24px;
+    background: url(../img/img-tokyo-blog-mobile.png);
+    width: 312px;
+    height: 360px;
+}
+
+.texto-explo h3 {
+
+    font-size: 28px;
+    font-weight: bold;
+    color: var( --text-primary-color);
+}
+
+.texto-explo p {
+
+    font-size: 20px;
+    font-weight: var(--text-weight);
+    color: var( --text-primary-color);
+    line-height: 30px;
+}
+
+.img-explo {
+
+    margin-top: 24px;
+    width: 100%;
+    height: 300px;
+    background: url(../img/tokyo-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.texto-explo .sub {
+
+    font-size: 14px;
+    color: var( --text-primary-color);
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .informacao {
+
+        flex-direction: row;
+    }
+
+    .img-explo {
+
+        height: 300px;
+        background: url(../img/tokyo-tablet.jpg) no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+    .informacao .texto {
+
+        width: 588px;
+        height: 360px;
+    }
+
+    .informacao .img-info {
+
+        width: 588px;
+        height: 360px;
+    }
+
+    .img-explo {
+
+        height: 300px;
+        background: url(../img/tokyo-desktop.png) no-repeat;
+        background-size: cover;
+    }
+    
+}

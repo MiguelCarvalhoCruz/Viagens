@@ -48,6 +48,7 @@ input[type="text"]:invalid, input[type="number"]:invalid, input[type="email"]:in
 
 @media screen and (min-width: 768px) {
     
+
     .formulario input {
 
         width: 648px;
