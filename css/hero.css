@@ -29,7 +29,14 @@
     margin: 0 0 88px 0;
 }
 
-.hero .hero-img, .bottom-hero .hero-img, .pacotes .hero-img, .bottom-hero-pacotes .hero-img, .contato .hero-img, .bottom-hero-contatos{
+.blog {
+
+    width: 100%;
+    margin: 0 0 88px 0;
+}
+
+
+.hero .hero-img, .bottom-hero .hero-img, .pacotes .hero-img, .bottom-hero-pacotes .hero-img, .contato .hero-img, .bottom-hero-contatos, .blog .hero-img{
     height: 400px;
     width: 100%;
 }
@@ -58,6 +65,12 @@
 .contato .hero-img {
 
     background: url(../img/img-hero-contato-mobile.png);
+    background-size: cover;
+}
+
+.blog .hero-img {
+
+    background: url(../img/hero-mobile-blog.png) no-repeat;
     background-size: cover;
 }
 
@@ -145,6 +158,37 @@
 
 }
 
+.section-blog {
+
+    box-sizing: border-box;
+    padding: 65px 24px;
+}
+
+.section-blog h2{
+
+    color: var(--text-secondary-color);
+    font-size: 48px;
+    font-weight: var(--title-weight);
+}
+
+.section-blog p {
+
+    font-size: 20px;
+    color: var(--text-secondary-color);
+    font-weight: var(--text-weight);
+    line-height: 32px;
+}
+
+.section-blog hr {
+
+    width: 180px;
+    height: 4px;
+    background-color: var(--button-primary-color);
+    border: none;
+    margin: 16px 0px 32px;
+
+}
+
 @media screen and (min-width: 768px) {
     
     .hero .hero-img {
@@ -186,6 +230,13 @@
         background-size: cover;
     }
 
+    .blog .hero-img {
+
+        height: 620px;
+        background: url(../img/hero-tablet-blog.png) no-repeat;
+        background-size: cover;
+    }
+
     .hero h2 {
 
         padding: 88px 60px;
@@ -217,6 +268,19 @@
         font-size: 32px;
     }
 
+    .section-blog {
+
+        padding: 183px 85px;
+        margin: 0;
+
+    }
+
+    .section-blog p {
+
+        width: 579px;
+        font-size: 32px;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -243,6 +307,12 @@
     .contato .hero-img {
 
         background: url(../img/img-hero-contato-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .blog .hero-img {
+
+        background: url(../img/hero-desktop-blog.png) no-repeat;
         background-size: cover;
     }
 
